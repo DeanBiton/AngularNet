@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net9.0\TaskApi.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net9.0\TaskApi.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net9.0\TaskApi.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net9.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net9.0\appsettings.json" />
+    <Content Include="bin\Debug\net9.0\TaskApi.deps.json" />
+    <Content Include="bin\Debug\net9.0\TaskApi.runtimeconfig.json" />
+    <Content Include="bin\Debug\net9.0\TaskApi.staticwebassets.endpoints.json" />
+    <Content Include="obj\Debug\net9.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net9.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net9.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net9.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net9.0\staticwebassets.removed.txt" />
+    <Content Include="obj\Debug\net9.0\TaskApi.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net9.0\TaskApi.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\TaskApi.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net9.0\TaskApi.dll" />
+    <None Include="bin\Debug\net9.0\TaskApi.exe" />
+    <None Include="bin\Debug\net9.0\TaskApi.pdb" />
+    <None Include="obj\Debug\net9.0\apphost.exe" />
+    <None Include="obj\Debug\net9.0\refint\TaskApi.dll" />
+    <None Include="obj\Debug\net9.0\ref\TaskApi.dll" />
+    <None Include="obj\Debug\net9.0\staticwebassets\msbuild.build.TaskApi.props" />
+    <None Include="obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.TaskApi.props" />
+    <None Include="obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.TaskApi.props" />
+    <None Include="obj\Debug\net9.0\TaskApi.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.assets.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net9.0\TaskApi.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.csproj.Up2Date" />
+    <None Include="obj\Debug\net9.0\TaskApi.dll" />
+    <None Include="obj\Debug\net9.0\TaskApi.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net9.0\TaskApi.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net9.0\TaskApi.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\TaskApi.csproj.nuget.g.props" />
+    <None Include="obj\TaskApi.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>
