@@ -1,0 +1,8 @@
+<ul>
+  <app-task-item-component
+    *ngFor="let t of tasks"
+    [task]="t"
+    (toggle)="onToggle($event)"
+    (remove)="onDelete($event)"
+  ></app-task-item-component>
+</ul>

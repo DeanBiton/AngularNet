@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="add()">
+  <input formControlName="title" placeholder="Add task..." />
+  <button>Add</button>
+</form>
+
+<app-task-list-component
+  [tasks]="tasks"
+  (toggleTask)="onToggleTask($event)"
+  (deleteTask)="onDeleteTask($event)"
+></app-task-list-component>

@@ -1,0 +1,12 @@
+<h1>hello</h1>
+<li>
+  <input 
+    type="checkbox" 
+    [checked]="task.isDone" 
+    (change)="onToggle()" 
+  />
+  <span [style.text-decoration]="task.isDone ? 'line-through' : ''">
+    {{ task.title }}
+  </span>
+  <button (click)="onRemove()">X</button>
+</li>
